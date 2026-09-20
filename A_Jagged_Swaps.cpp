@@ -1,13 +1,16 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 void solve() {
     int n;
     cin >> n;
-    int b;
-    cin >> b;
+    vector<int> nums(n);
+    for (int i = 0; i < n; i++) {
+        cin >> nums[i];
+    }
 
-    if (b == 1)
+    if (nums[0] == 1)
         cout << "YES" << "\n";
     else
         cout << "NO" << "\n";
