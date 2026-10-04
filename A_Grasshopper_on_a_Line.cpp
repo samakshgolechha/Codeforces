@@ -12,7 +12,7 @@ void solve() {
         cout << 1 << "\n"
              << n << "\n";
 }
-
+A
 int main() {
     int t;
     cin >> t;

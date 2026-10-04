@@ -19,9 +19,8 @@ void solve() {
             continue;
         if (nums[i] == nums[i - 1] + 1)
             count++;
-        else {
+        else 
             count = 1;
-        }
         ans = max(count, ans);
     }
     cout << ans << "\n";
